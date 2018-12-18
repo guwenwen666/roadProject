@@ -54,8 +54,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'index.html',
-      inject: true
+      template: 'app-bigData/index.html',
+      inject: true,
+      chunks:['bigData']
     }),
     // copy custom static assets
     new CopyWebpackPlugin([

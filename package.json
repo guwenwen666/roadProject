@@ -14,6 +14,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@kd-components/kd-context-menu": "git+http://gitlab.ctsp.kedacom.com/kd-components/kd-context-menu.git",
+    "@kd-components/kd-frameset": "git+http://gitlab.ctsp.kedacom.com/kd-components/kd-frameset.git",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
